@@ -58,7 +58,7 @@ const Entry = () => {
             <br />
             20もの憧れの学生団体が1日限定で集い、大学生を迎え入れます。
             <br />
-            また素敵なプログラムやイベント、スペシャルなゲストも呼ぶ予定です！
+            また素敵なプログラムやイベントを開催予定です!!
             <br />
             是非是非奮ってご参加ください！
             <br />
@@ -115,12 +115,14 @@ const Entry = () => {
 
             <div className={styles.field}>
               <label>学年</label>
-              {["新大学1年生", "2年生", "その他"].map((year, index) => (
-                <label key={index}>
-                  <input type="radio" {...register("grade")} value={year} />
-                  {year}
-                </label>
-              ))}
+              {["新大学1年生", "2年生", "3年生", "4年生", "その他"].map(
+                (year, index) => (
+                  <label key={index}>
+                    <input type="radio" {...register("grade")} value={year} />
+                    {year}
+                  </label>
+                )
+              )}
               <p className={styles.error__message}>{errors.grade?.message}</p>
             </div>
 
@@ -133,6 +135,16 @@ const Entry = () => {
                   "HOKULEA",
                   "NCA",
                   "SpechTech",
+                  "Carutena",
+                  "NAMIMATI",
+                  "aysinc",
+                  "学生団体いろり",
+                  "UST",
+                  "Olly",
+                  "k-mic",
+                  "vybe",
+                  "Archives of College",
+                  "re-musée",
                   "その他",
                 ].map((group, index) => {
                   return (
