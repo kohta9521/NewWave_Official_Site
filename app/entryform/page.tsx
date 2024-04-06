@@ -145,6 +145,14 @@ const Entry = () => {
                   "vybe",
                   "Archives of College",
                   "re-musée",
+                  "GNARLYS",
+                  "ONE CHANCE",
+                  "EarthWorm",
+                  "REPLUS",
+                  "SWICH",
+                  "東大notion",
+                  "Tabippo",
+                  "Crenection",
                   "その他",
                 ].map((group, index) => {
                   return (
