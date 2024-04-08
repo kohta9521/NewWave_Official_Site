@@ -1,0 +1,28 @@
+.mainContent {
+  width: 100%;
+  height: 60vh;
+  padding-top: 200px;
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+  .desc {
+    text-align: center;
+  }
+  .returnButton {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--main-white-color);
+    background-color: var(--main-pink);
+    &:hover {
+      transition: all 0.3s;
+      background-color: var(--sub-pink);
+    }
+  }
+}

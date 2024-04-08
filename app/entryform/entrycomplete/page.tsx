@@ -1,6 +1,10 @@
 import React from "react";
 import Link from "next/link";
+
+// scss
 import styles from "./EntryComplete.module.scss";
+
+// components
 import BgImage from "@/components/organisms/BgImage";
 import SubPageLayout from "@/components/templates/SubPageLayout";
 
@@ -16,7 +20,9 @@ const EntryComplete = () => {
             <br />
             今後公式SNSなどで最新情報を発信していきますので、是非フォローをお願いいたします。
           </p>
-          <Link href={"/"}>ホームに戻る</Link>
+          <Link className={styles.returnButton} href={"/"}>
+            ホームに戻る
+          </Link>
         </div>
       </SubPageLayout>
     </div>
