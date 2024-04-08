@@ -178,6 +178,8 @@ const Entry = () => {
                   "友人",
                   "チラシ",
                   "広告",
+                  "Twitter(X)",
+                  "Instagram",
                   "その他",
                 ].map((organization, index) => (
                   <option key={index} value={organization}>
