@@ -134,7 +134,7 @@ const Entry = () => {
                   "AFA",
                   "HOKULEA",
                   "NCA",
-                  "SpechTech",
+                  "SpecTech",
                   "Carutena",
                   "NAMIMATI",
                   "aysinc",
